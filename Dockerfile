@@ -10,3 +10,4 @@ RUN /etc/init.d/redis-server start
 
 EXPOSE 80/tcp
 # Redis port
+EXPOSE 6379/tcp
